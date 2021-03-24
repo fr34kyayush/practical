@@ -4,10 +4,10 @@ while (c=='y'):
     print ("1. PUSH")
     print ("2. POP")
     print ("3. DISPLAY")
-    choice = int(input("Enter your choice :"))
+    choice = int(input("Enter your choice : "))
     if (choice==1):
-        e_id = input("Enter employee no :")
-        name = input("Enter the name :")
+        e_id = input("Enter employee no : ")
+        name = input("Enter the name : ")
         emp = (e_id,name)
         employee.append(emp)
     elif (choice==2):
@@ -23,4 +23,4 @@ while (c=='y'):
             i = i-1
     else:
         print("Wrong Input")
-    c = input("Do you want to continue or not(Y/N) :")
+    c = input("Do you want to continue or not(Y/N) : ")
